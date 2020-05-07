@@ -1,0 +1,24 @@
+{
+  "name": "@jsabol/toolkit-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/base.scss dist/base.css && cp src/index.html dist/index.html",
+    "start": "cd dist && python -m SimpleHTTPServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsabol/toolkit-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsabol/toolkit-example/issues"
+  },
+  "homepage": "https://github.com/jsabol/toolkit-example#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
